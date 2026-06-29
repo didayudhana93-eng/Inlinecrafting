@@ -556,38 +556,42 @@
 
         @media (max-width: 768px) {
             header {
-                flex-direction: column;
-                padding: 15px;
-                gap: 10px;
+                flex-direction: column; 
+        	padding: 15px 5%;      
+       		gap: 15px;
+        	text-align: center;
             }
             .brand-wrapper {
                 justify-content: center;
             }
             body {
-                padding-top: 160px;
+                padding-top: 170px;
             }
             nav ul {
-                margin-top: 10px;
+                flex-wrap: wrap;        
+        	justify-content: center;
+        	gap: 12px 15px;
             }
             nav ul li {
-                margin: 0 10px;
+                margin-left: 0;
             }
-            main {
-                padding: 20px 5%;
+
+            .katalog-section {
+                padding: 40px 5%;
             }
-            .testimonial-slide {
-                min-width: 100%; 
-                padding: 0 5px;
+
+            .filter-container {
+                justify-content: center;
             }
-            footer {
-                padding: 50px 5% 20px 5%;
+        }
+
+        @media (max-width: 576px) {
+            .popup-content {
+                width: 95%;
+                padding: 20px;
             }
-            .footer-container {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-            .footer-brand {
-                justify-content: flex-start;
+            #popupTitle {
+                font-size: 1.1rem;
             }
         }
     </style>

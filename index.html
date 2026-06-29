@@ -564,37 +564,39 @@
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
-                padding: 15px;
-                gap: 10px;
+                padding: 15px 5%;
+                gap: 15px;
+		text-align: center;
             }
             .brand-wrapper {
                 justify-content: center;
+	    }
+
+            body {
+                padding-top: 170px;
             }
             nav ul {
-                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px 15px;
             }
+
             nav ul li {
-                margin: 0 10px;
+                margin-left: 0;
             }
-            #home h1 {
-                font-size: 2.2rem;
-            }
+
             section {
-                padding: 80px 5%;
+                padding: 60px 5%;
             }
-            .testimonial-slide {
-                min-width: 100%; /* Menjadi 1 kolom penuh di mobile */
-                padding: 0 5px;
+
+            #home h1 {
+                font-size: 2rem;
+                letter-spacing: 4px;
             }
-            footer {
-                padding: 50px 5% 20px 5%;
-            }
-            .footer-container {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-            .footer-brand {
-                justify-content: flex-start;
+
+            #home p {
+                font-size: 0.9rem;
+                letter-spacing: 2px;
             }
         }
     </style>
@@ -652,8 +654,8 @@
                 <div class="slide-item" data-title="Hardbox Full Print + Foil" data-category="Hard box">
                     <img src="Magnet Padelio.png" alt="Food Sleeve Packaging">
                 </div>
-                <div class="slide-item" data-title="Soft Box Full Print" data-category="Soft box">
-                    <img src="Sambal Tongkol.png" alt="Jewelry & Watch Box">
+                <div class="slide-item" data-title="Paper Bag + Foil" data-category="Craft Paper">
+                    <img src="Paperbag.png" alt="Jewelry & Watch Box">
                 </div>
                 <div class="slide-item" data-title="Hardbox Sleeve Full Print" data-category="Hard Box">
                     <img src="box6.jpeg" alt="Minimalist Shopping Bag">
