@@ -556,42 +556,38 @@
 
         @media (max-width: 768px) {
             header {
-                flex-direction: column; 
-        	padding: 15px 5%;      
-       		gap: 15px;
-        	text-align: center;
+                flex-direction: column;
+                padding: 15px;
+                gap: 10px;
             }
             .brand-wrapper {
                 justify-content: center;
             }
             body {
-                padding-top: 170px;
+                padding-top: 160px;
             }
             nav ul {
-                flex-wrap: wrap;        
-        	justify-content: center;
-        	gap: 12px 15px;
+                margin-top: 10px;
             }
             nav ul li {
-                margin-left: 0;
+                margin: 0 10px;
             }
-
-            .katalog-section {
-                padding: 40px 5%;
+            main {
+                padding: 20px 5%;
             }
-
-            .filter-container {
-                justify-content: center;
+            .testimonial-slide {
+                min-width: 100%; 
+                padding: 0 5px;
             }
-        }
-
-        @media (max-width: 576px) {
-            .popup-content {
-                width: 95%;
-                padding: 20px;
+            footer {
+                padding: 50px 5% 20px 5%;
             }
-            #popupTitle {
-                font-size: 1.1rem;
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .footer-brand {
+                justify-content: flex-start;
             }
         }
     </style>
@@ -657,7 +653,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="hardbox" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Gift box anniversary.png" alt="Rigid Drawstring Box"></div>
+                <div class="gallery-item"><img src="Giftboxanniversary.png" alt="Rigid Drawstring Box"></div>
                 <div class="item-info"><span class="item-title">Gift Box Anniversary</span><span class="item-category">Hard Box</span>
 			<span class="item-detail">Min. Order: 100 pcs</span>
 		</div>
@@ -699,7 +695,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="hardbox" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="HardBox Sleeve Full Print + Foil.png" alt="Wine Single Bottle Box"></div>
+                <div class="gallery-item"><img src="Hardboxsleeve fullprint+foil.png" alt="Wine Single Bottle Box"></div>
                 <div class="item-info"><span class="item-title">HardBox Sleeve Full Print + Foil</span><span class="item-category">Hard Box</span>
 			<span class="item-detail">Min. Order: 50 pcs</span>
 		</div>
@@ -707,13 +703,7 @@
 
             <!-- Data Produk Corrugated -->
             <div class="product-card" data-bahan="Soft Box" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="GutViber.png" alt="Exclusive Hampers Box"></div>
-                <div class="item-info"><span class="item-title">Printing Soft Box</span><span class="item-category">Corrugated</span>
-			<span class="item-detail">Min. Order: 500 pcs</span>
-		</div>
-            </div>
-            <div class="product-card" data-bahan="Soft Box" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="GutViber.png" alt="E-Commerce Mailer Box"></div>
+                <div class="gallery-item"><img src="gutviber.png" alt="E-Commerce Mailer Box"></div>
                 <div class="item-info"><span class="item-title">Printing Soft Box Glossy Laminating</span><span class="item-category">Soft Box</span>
 			<span class="item-detail">Min. Order: 100 pcs</span>
 		</div>
@@ -746,7 +736,7 @@
 
             <!-- Data Produk Premium Paper -->
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Gesso.png" alt="Gold Foil Embossed Box"></div>
+                <div class="gallery-item"><img src="materica/gesso.png" alt="Gold Foil Embossed Box"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Gesso Paper</span>
@@ -754,7 +744,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Limestone.png" alt="Textured Matte Card Box"></div>
+                <div class="gallery-item"><img src="materica/limestone.png" alt="Textured Matte Card Box"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Limestone Paper</span>
@@ -762,7 +752,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Quarz.png" alt="Metallic Finish Envelope"></div>
+                <div class="gallery-item"><img src="materica/quarz.png" alt="Metallic Finish Envelope"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Quarz Paper</span>
@@ -770,7 +760,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Terra Gialla.png" alt="Velvet Touch Cosmetic Slip"></div>
+                <div class="gallery-item"><img src="materica/terra-gialla.png" alt="Velvet Touch Cosmetic Slip"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Terra Gialla Paper</span>
@@ -778,7 +768,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Kraft.png" alt="Iridescent Luxury Tag"></div>
+                <div class="gallery-item"><img src="materica/kraft.png" alt="Iridescent Luxury Tag"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Kraft Paper</span>
@@ -786,7 +776,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Clay.png" alt="Scented Linen Card Wrap"></div>
+                <div class="gallery-item"><img src="materica/clay.png" alt="Scented Linen Card Wrap"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Clay Paper</span>
@@ -794,7 +784,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Verdigris.png" alt="High-Gloss UV Spot Box"></div>
+                <div class="gallery-item"><img src="materica/verdigris.png" alt="High-Gloss UV Spot Box"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Verdigris Paper</span>
@@ -802,7 +792,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Acqua.png" alt="Silver Hot Stamping Sleeve"></div>
+                <div class="gallery-item"><img src="materica/acqua.png" alt="Silver Hot Stamping Sleeve"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Acqua Paper</span>
@@ -810,7 +800,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Terra Rossa.png" alt="Pearl-White Invitation Folder"></div>
+                <div class="gallery-item"><img src="materica/terra-rossa.png" alt="Pearl-White Invitation Folder"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Terra Rossa Paper</span>
@@ -818,7 +808,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Terracotta.png" alt="Deep Black Vellum Sleeve"></div>
+                <div class="gallery-item"><img src="materica/terracotta.png" alt="Deep Black Vellum Sleeve"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Terracotta Paper</span>
@@ -826,7 +816,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/RUst.png" alt="Artisan Deckled Edge Card"></div>
+                <div class="gallery-item"><img src="materica/rust.png" alt="Artisan Deckled Edge Card"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Rust Paper</span>
@@ -834,7 +824,7 @@
 		</div>
             </div>
             <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/pitch.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="materica/pitch.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Pitch Paper</span>
@@ -842,7 +832,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Cobalt.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="materica/cobalt.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Cobalt</span>
@@ -850,7 +840,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Materica/Ardesia.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="materica/ardesia.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Koleksi Materica</span>
 			<span class="item-title">Ardesia</span>
@@ -858,7 +848,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/FREELIFE Cento Extra White.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/freelife-cento-extra-white.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">FREELIFE Cento Extra White</span>
@@ -866,15 +856,15 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/FREELIFE Kendo Extra White.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/freelife-kendo-extra-white.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
-			<span class="collection-tag">Uncoated Whites</span>
+			<span class="collection-tag">uncoated-whites</span>
 			<span class="item-title">FREELIFE Kendo Extra Whites</span>
 			<span class="item-category">120 150 200 250 300</span>
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/OLD MILL Premium White.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/old-mill-premium-white.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">OLD MILL Premium White</span>
@@ -882,7 +872,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/OLD MILL Bianco.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/old-mill-bianco.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">OLD MILL Bianco</span>
@@ -890,7 +880,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/OLD MILL Avorio.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/old-mill-avorio.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">OLD MILL Avorio</span>
@@ -898,7 +888,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/Tintoretto Neve.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/tintoretto-neve.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">Tintoretto Neve</span>
@@ -906,7 +896,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/Tintoretto Camoscio.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/tintoretto-camoscio.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">Tintoretto Camoscio</span>
@@ -914,7 +904,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/Tintoretto Crema.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/tintoretto-crema.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">Tintoretto Crema</span>
@@ -922,7 +912,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="Uncoated Whites/Tintoretto Gesso.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="uncoated-whites/tintoretto-gesso.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Whites</span>
 			<span class="item-title">Tintoretto Gesso</span>
@@ -930,7 +920,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO ANTRACITE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-antracite.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Antracite</span>
@@ -938,7 +928,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO ARANCIO.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-arancio.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Arancio</span>
@@ -946,7 +936,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO BLACK.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-black.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Black</span>
@@ -954,7 +944,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO BLU.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-blu.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Blu</span>
@@ -962,7 +952,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO BRUNO.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-bruno.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Bruno</span>
@@ -970,7 +960,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO CACAO.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-cacao.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio cacao</span>
@@ -978,7 +968,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO CAFFEE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-caffee.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Caffe</span>
@@ -986,7 +976,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO CASHMERE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-cashmere.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Cashmere</span>
@@ -994,7 +984,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO CELESTE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-celeste.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Celeste</span>
@@ -1002,7 +992,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO CHERRY.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-cherry.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Cherry</span>
@@ -1010,7 +1000,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO DARK BLUE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-dark-blue.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Dark Blue</span>
@@ -1018,7 +1008,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO FLAMINGO.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-flamingo.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Flamingo</span>
@@ -1026,7 +1016,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO FOGILA.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-fogila.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">SIRIO FOGLIA</span>
@@ -1034,7 +1024,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO GIALLORO.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-gialloro.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Gialloro</span>
@@ -1042,7 +1032,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO IRIS.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-iris.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Iris</span>
@@ -1050,7 +1040,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO JASMINE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-jasmine.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Jasmine</span>
@@ -1058,7 +1048,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO LAMPONE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-lampone.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Lampone</span>
@@ -1066,7 +1056,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO LIME.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-lime.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Lime</span>
@@ -1074,7 +1064,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO MILKSHAKE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-milkshake.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Milkshake</span>
@@ -1082,7 +1072,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO NUDE.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-nude.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Nude</span>
@@ -1090,7 +1080,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="SIRIO COLOR/SIRIO PERLA.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="sirio-color/sirio-perla.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">Uncoated Colours</span>
 			<span class="item-title">Sirio Perla</span>
@@ -1098,7 +1088,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Neve E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/neve-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Neve ER00 Diana</span>
@@ -1106,7 +1096,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Bianco E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/bianco-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Bianco ER00 Diana</span>
@@ -1114,7 +1104,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Pink Sand E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/pink-sand-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Pink Sand ER00 Diana</span>
@@ -1122,7 +1112,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Jade Green E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/jade-green-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Jade Green ER00 Diana</span>
@@ -1130,7 +1120,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Grey Stone E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/grey-stone-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Grey Stone E R00 Diana</span>
@@ -1138,7 +1128,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Grigio Chiaro E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/grigio-chiaro-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Grigio Chiaro E R00 Diana</span>
@@ -1146,7 +1136,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Kraft E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/kraft-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Kraft E R00 Diana</span>
@@ -1154,7 +1144,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Castano E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/castano-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Castano E R00 Diana</span>
@@ -1162,7 +1152,7 @@
 		</div>
             </div>
 		<div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Vibrant Ochre E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/vibrant-ochre-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Vibrant Ochre E R00 Diana</span>
@@ -1170,7 +1160,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Arancio E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/arancio-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Arancio E R00 Diana</span>
@@ -1178,7 +1168,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Ginger Brown E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/ginger-brown-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Ginger Brown E R00 Diana</span>
@@ -1186,7 +1176,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Rosso E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/rosso-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Rosso E R00 Diana</span>
@@ -1194,7 +1184,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Bordeaux E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/bordeaux-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Bordeaux E R00 Diana</span>
@@ -1202,7 +1192,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Blu Notte E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/blu-notte-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Blu Notte E R00 Diana</span>
@@ -1210,7 +1200,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Teal Green E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/teal-green-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Teal Green E R00 Diana</span>
@@ -1218,7 +1208,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Verde Edera E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/verde-edera-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Verde Edera E R00 Diana</span>
@@ -1226,7 +1216,7 @@
 		</div>
             </div>
 	    <div class="product-card" data-bahan="premium" onclick="openPopup(this)">
-                <div class="gallery-item"><img src="IMITLIN E R00 Diana/Nero E R00 Diana.png" alt="Debossed Signature Pack"></div>
+                <div class="gallery-item"><img src="imitlin-e-R00-diana/nero-e-R00-diana.png" alt="Debossed Signature Pack"></div>
                 <div class="item-info">
 			<span class="collection-tag">IMITLIN</span>
 			<span class="item-title">Nero E R00 Diana</span>
